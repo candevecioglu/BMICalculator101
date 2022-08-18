@@ -8,10 +8,15 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    
+    var weight = Float()
+    var height = Float()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(weight)
+        print(height)
 
         // Do any additional setup after loading the view.
     }

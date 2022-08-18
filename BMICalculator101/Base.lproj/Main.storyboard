@@ -77,7 +77,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Rzr-ig-HXw" kind="presentation" identifier="goToResult" id="4MG-6B-E4L"/>
+                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NfP-9B-JsA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -120,6 +120,7 @@
                         <outlet property="switchLabel" destination="UCG-Tx-GlF" id="Sqg-XR-XYQ"/>
                         <outlet property="weightLabel" destination="he8-RW-L0Z" id="xOM-gi-M3E"/>
                         <outlet property="weightSliderLabel" destination="Ds4-hR-zxT" id="s2j-C4-8B1"/>
+                        <segue destination="Rzr-ig-HXw" kind="presentation" identifier="goToResult" id="ti0-Ak-r4v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

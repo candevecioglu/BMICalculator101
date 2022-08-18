@@ -13,6 +13,7 @@
 		40ED04B228905EC2009EE924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ED04B028905EC2009EE924 /* Main.storyboard */; };
 		40ED04B428905EC3009EE924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40ED04B328905EC3009EE924 /* Assets.xcassets */; };
 		40ED04B728905EC3009EE924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ED04B528905EC3009EE924 /* LaunchScreen.storyboard */; };
+		40FA573528AEE7B3000CC230 /* BMIBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA573428AEE7B3000CC230 /* BMIBrain.swift */; };
 		40FFFA0428A5946100C23B1C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFFA0328A5946100C23B1C /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		40ED04B328905EC3009EE924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40ED04B628905EC3009EE924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40ED04B828905EC3009EE924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FA573428AEE7B3000CC230 /* BMIBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIBrain.swift; sourceTree = "<group>"; };
 		40FFFA0328A5946100C23B1C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 			children = (
 				40ED04AA28905EC2009EE924 /* AppDelegate.swift */,
 				40ED04AC28905EC2009EE924 /* SceneDelegate.swift */,
+				40FA573428AEE7B3000CC230 /* BMIBrain.swift */,
 				40ED04AE28905EC2009EE924 /* ViewController.swift */,
 				40FFFA0328A5946100C23B1C /* ResultViewController.swift */,
 				40ED04B028905EC2009EE924 /* Main.storyboard */,
@@ -145,6 +148,7 @@
 				40ED04AB28905EC2009EE924 /* AppDelegate.swift in Sources */,
 				40ED04AD28905EC2009EE924 /* SceneDelegate.swift in Sources */,
 				40FFFA0428A5946100C23B1C /* ResultViewController.swift in Sources */,
+				40FA573528AEE7B3000CC230 /* BMIBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
